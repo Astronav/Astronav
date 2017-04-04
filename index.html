@@ -1,47 +1,103 @@
+
 <!DOCTYPE html>
-<html>
 <head>
+	 <title>Beer Selfie</title>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
+  <!-- <link href="/normalize.css" rel="stylesheet"> !-->
+  <style>
+    header {
+      font-family: Oswald;
+	text-align: center;
+      background: url("https://farm9.staticflickr.com/8591/16691385011_22f6812e56_z_d.jpg");
+      background-size: cover;
+      color: white;
+    }
+	  body{
+		background-color: white;
+	  }
+	a {
+      font-size: 24px;
+		color: blue;
+    }
+	.internal {
+      color: white;
+    }
 
-<!-- your webpage info goes here -->
-
-    <title>Astronav</title>
+    h1 {
+        font-family: Oswald;
+		font-size: 70px;
+    }
+  	h2 {
+        font-family: Oswald;
+		font-size: 36px;
+      }
+    img {
+      margin: 10px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 10px;
+    }
+  	p{
+	  font-family: Oswald;
+	  font-size: 24px;
+	  }
+	  
+    ul {
+      padding: 10px;
+      background: black;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article{
+      max-width: 500px;
+      padding: 5px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 48px;
+      }
+      li {
+	  	display: block;
+        padding: 2px;
+      }
+	  
+  	}
 	
-	<meta name="author" content="your name" />
-	<meta name="description" content="" />
-
-<!-- you should always add your stylesheet (css) in the head tag so that it starts loading before the page html is being displayed -->	
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	
+      
+  </style>
 </head>
 <body>
+  <header>
+  <h1>Beer Selfie</h1>
+    <ul>
+      <li><a href="#about" class="internal">What is It?</a></li>
+		<li><a href="#demo" class="internal">Demo</a></li>
+      <!--<li><a href="#projects" class="internal">Projects</a></li>
+		<li><a href="#contact" class="internal">Contact</a></li>!-->
+        
+    </ul>
+  </header>
+    
+<article>
+    <h2 id="about">WHAT</h2>
+    
+    <p>As technology develops, so do the ways that people consume and share experiences. This tool lets us embrace global processes to infiltrate open-ended functionalities and connect on a deeper level through our collaborative portals.
+		 </p>
+  
+    </article>
+<article>
+  <h2 id="demo">DEMO</h2>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/wf-rCfu6Lqo" frameborder="0" allowfullscreen></iframe>
+	<p>
+		Beer selfie is a selfie stick that lets you take a photo of what matters in life: you drinking beer.</p>
+    
+    </article>
 
-<!-- webpage content goes here in the body -->
+	<ul>
+		<li><font color="white">Jono Sanders, Philadelphia 2017</font></li>
+    </ul>
 
-	<div id="page">
-		<div id="logo">
-			<h1><a href="/" id="logoLink">My First Website</a></h1>
-		</div>
-		<div id="nav">
-			<ul>
-				<li><a href="#/home.html">Home</a></li>
-				<li><a href="#/about.html">About</a></li>
-				<li><a href="#/contact.html">Contact</a></li>
-			</ul>	
-		</div>
-		<div id="content">
-			<h2>Home</h2>
-			<p>
-				This is my first webpage! I was able to code all the HTML and CSS in order to make it. Watch out world of web design here I come!
-			</p>
-			<p> 
-				I can use my skills here to create websites for my business, my friends and family, my C.V, blog or articles. As well as any games or more experiment stuff (which is what the web is really all about). 
-			</p>
-		</div>
-		<div id="footer">
-			<p>
-				Webpage made by <a href="/" target="_blank">[your name]</a>
-			</p>
-		</div>
-	</div>
+
 </body>
-</html>
